@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)">
+  <title>山田 太郎 | 自己紹介</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="テーマを切り替える">🌙</button>
+    <header class="hero">
+      <div class="avatar" aria-hidden="true">太</div>
+      <h1>山田 太郎</h1>
+      <p class="role"><span class="typed" id="typed" data-words="Webエンジニア,コーヒー好き,ものづくりが好き">Webエンジニア</span></p>
+      <button type="button" class="hello-btn" id="hello-btn">👋 あいさつする</button>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>はじめまして。使いやすくて美しいWebサービスをつくることが好きです。新しい技術を学びながら、日々ものづくりを楽しんでいます。</p>
+    </section>
+
+    <section>
+      <h2>趣味</h2>
+      <ul class="tags">
+        <li>読書</li>
+        <li>カメラ</li>
+        <li>カフェ巡り</li>
+        <li>ランニング</li>
+        <li>音楽鑑賞</li>
+      </ul>
+    </section>
+
+    <section class="fortune">
+      <h2>今日のひとこと</h2>
+      <button type="button" class="fortune-btn" id="fortune-btn">🔮 引いてみる</button>
+      <p class="fortune-result" id="fortune-result" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>連絡先</h2>
+      <ul class="contact">
+        <li><span>メール</span><a href="mailto:example@example.com">example@example.com</a></li>
+        <li><span>GitHub</span><a href="https://github.com/">github.com/your-name</a></li>
+        <li><span>X</span><a href="https://x.com/">@your_name</a></li>
+      </ul>
+    </section>
+
+    <footer>&copy; 2026 Yamada Taro</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
